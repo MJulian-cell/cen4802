@@ -8,6 +8,11 @@ public class Fibonacci {
     }
 
     public static int fibonacci(int n) {
+        // The fibonacci is used to generate a sequence where each number is the sum of the
+        // proceeding ones.
+        //The n is the number to calculate the fibonacci.
+        // The return of line 18 uses the recursive technique calling itself
+        // The return of line 16 allows the recursive technique to stop.
         if (n <= 1) {
             return n;
         } else {
